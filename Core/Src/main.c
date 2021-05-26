@@ -260,6 +260,8 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  // DEBUG blinking LED
+	  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
 
 	  HAL_Delay(100);
 	  drv_print_faults(drv);
