@@ -1,0 +1,16 @@
+#Git Ignore
+
+#Hidden files
+.cproject
+.mxproject
+.project
+.settings/
+
+#Repositories
+Debug/
+Drivers/
+
+#Extensions
+*.ld
+*.launch
+
